@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import { useInView } from "framer-motion";
+
 import { cn } from "@/lib/cn";
 
 type RevealProps = {
@@ -28,9 +29,7 @@ export function Reveal({
     <div
       ref={ref}
       style={{
-        transform: isInView
-          ? "none"
-          : `translateY(${translateY}px) translateX(${translateX}px)`,
+        transform: isInView ? "none" : `translateY(${translateY}px) translateX(${translateX}px)`,
         opacity: isInView ? 1 : 0,
         transition: `all ${duration}s cubic-bezier(0.17, 0.55, 0.55, 1) ${delay}s`,
       }}

@@ -1,17 +1,14 @@
 export const Footer = () => {
   return (
     <footer className="bg-primary py-12">
-      <div className="max-w-screen-lg mx-auto px-6">
-        <div className="py-12 flex flex-col gap-4 lg:flex-row lg:items-center justify-between">
+      <div className="mx-auto max-w-screen-lg px-6">
+        <div className="flex flex-col justify-between gap-4 py-12 lg:flex-row lg:items-center">
           <div>
-            <h2 className="text-2xl font-serif mb-4">Connie</h2>
+            <h2 className="mb-4 font-serif text-2xl">Connie</h2>
             <ul>
               <li>
                 <p>
-                  <a
-                    className="hover:underline"
-                    href="mailto:connie@connie.com"
-                  >
+                  <a className="hover:underline" href="mailto:connie@connie.com">
                     connie@connie.com
                   </a>
                 </p>
@@ -26,7 +23,7 @@ export const Footer = () => {
 
           <div className="grid grid-cols-3 gap-12">
             <div>
-              <h2 className="text-xl font-serif mb-4">For studenter</h2>
+              <h2 className="mb-4 font-serif text-xl">For studenter</h2>
               <ul>
                 <li>
                   <p>
@@ -45,7 +42,7 @@ export const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="text-xl font-serif mb-4">For bedrifter</h2>
+              <h2 className="mb-4 font-serif text-xl">For bedrifter</h2>
               <ul>
                 <li>
                   <p>
@@ -64,7 +61,7 @@ export const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="text-xl font-serif mb-4">Om oss</h2>
+              <h2 className="mb-4 font-serif text-xl">Om oss</h2>
               <ul>
                 <li>
                   <p>

@@ -22,31 +22,4 @@
     background-color: var(--background);
     color: var(--foreground);
   }
-
-  .primary-button {
-    background-color: var(--primary);
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-  }
-
-  .primary-button:hover {
-    background-color: var(--primary-hover);
-  }
-
-  .primary-button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-  }
-
-  .secondary-button {
-    background-color: var(--offwhite);
-    color: var(--primary);
-    padding: 0.5rem 1rem;
-    border: 1px solid var(--primary);
-    border-radius: 8px;
-    cursor: pointer;
-  }
 }

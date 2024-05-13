@@ -56,7 +56,7 @@ export const StudyCycle = () => {
             opacity: 0,
             x: 20,
           }}
-          className="text-primary font-semibold"
+          className="font-semibold text-primary"
         >
           {current}
         </motion.span>

@@ -1,7 +1,7 @@
 export function DashboardLayout({
-  children
+  children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <div className="h-full flex flex-col">{children}</div>;
+  return <div className="flex h-full flex-col">{children}</div>;
 }
